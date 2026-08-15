@@ -5,10 +5,10 @@ function SourceCodeLink() {
   return (
     <a
       className="sourceCodeLink"
-      href="https://github.com/DallasGiles/dallasGiles-web"
+      href="https://github.com/DallasGiles/dallasgiles.com"
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="=Website GitHub Repository"
+      aria-label="Website GitHub repository"
     >
       <FaGithub className="sourceCodeLink__github" size={25} />
       <h3 className="">Check Out The Source Code</h3>

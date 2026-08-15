@@ -8,7 +8,7 @@ function Footer() {
     <footer className="footer">
       <SocialMediaIcons />
       <Logo />
-      <p className="footer__copyright">Copyright © 2024 Dallas Giles.</p>
+      <p className="footer__copyright">© {new Date().getFullYear()} Dallas Giles. Built with curiosity.</p>
       <SourceCodeLink />
     </footer>
   );

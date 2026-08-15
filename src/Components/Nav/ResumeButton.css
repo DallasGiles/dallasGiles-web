@@ -1,16 +1,2 @@
-.resumeButton {
-    color: var(--purple);
-    border: 2px solid var(--purple);
-    padding: 5px 10px;
-    border-radius: 10px;
-  }
-  
-  .resumeButton:hover {
-    color: white;
-  }
-  
-  @media only screen and (max-width: 768px) {
-    .resumeButton {
-      margin: 20px;
-    }
-  }
+.resumeButton { border:1px solid var(--accent); border-radius:999px; color:var(--accent-bright); padding:9px 15px; }
+.resumeButton:hover { background:var(--accent); color:#090b10; }

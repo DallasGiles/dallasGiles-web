@@ -13,41 +13,22 @@ function About() {
   return (
     <section id="about" className="about">
       <div data-aos="fade-right" className="about__text">
-        <h2 className="about__heading">About Me</h2>
+        <p className="about__kicker">Technical context. Project focus.</p>
+        <h2 className="about__heading">About me</h2>
         <p className="about__body">
-           Hello My name is Dallas Giles and I am a Fullstack Web Developer
-          <br /> <br /> Currently, I am very interested in, and currently learning about{" "}
-          <span className="about__specialText">artificial intelligence</span>,{" "}
-          <span className="about__specialText">technical application</span>, and{" "}
-          
-          <span className="about__specialText"> web development</span> in general.
+          I’m an Autopilot Engineer at <span className="about__specialText">Tesla</span>, where I’ve worked on the Full Self-Driving team in a fast-moving, highly technical environment. My strongest work happens where execution, coordination, and continuous improvement meet.
         </p>
-        <br /> <br />
         <p className="about__body">
-           In the future, I would like to develop web and mobile applications that 
-           involve artificial intelligence to solve  <span className="about__specialText">real-world problems</span>,{" "} 
-           <span className="about__specialText">automate tasks</span>, and create <span className="about__specialText">personalized experiences</span>.
+          I’ve coordinated with quality and engineering teams ranging from roughly 20 to 60 people, helped align priorities, improved handoffs, trained new hires, and kept work moving across multiple projects. I’m comfortable understanding technical detail, but I’m most energized by <span className="about__specialText">creating clarity and momentum</span> around it.
         </p>
-        <br /> <br />
         <p className="about__body">
-           I would also like to work on <span className="about__specialText">open-source projects</span> to give back 
-           to the developer community. 
-           In particular I would like to develop <span className="about__specialText">solutions</span> that are more {" "} 
-           <span className="about__specialText">sustainable</span>, require less  <span className="about__specialText">consumption</span>, and encourage continuous  <span className="about__specialText">learning</span>.
-        </p>
-        <br />
-        <p className="about__body">
-          You can reach out to me on my{" "}
-          <NavHashLink className="about__specialText" smooth to="#contact">
-            contact
-          </NavHashLink>{" "}
-          page
+          I’m interested in project management opportunities where I can help technical teams plan well, communicate clearly, and deliver meaningful outcomes. I’m particularly drawn to tech-adjacent work with ambitious people and difficult problems. <NavHashLink className="about__externLink" smooth to="#contact">Let’s talk.</NavHashLink>
         </p>
       </div>
       <img
         className="about__headshot"
         src="/images/headshot.jpeg"
-        alt="Creator"
+        alt="Portrait of Dallas Giles"
         width="268"
         height="400"
         loading="lazy"

@@ -12,6 +12,7 @@ function Nav({ setClicked, clicked }) {
           clicked={clicked}
           name={item.name}
           link={item.link}
+          key={item.link}
         />
       ))}
       <ResumeButton />
