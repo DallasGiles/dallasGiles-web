@@ -6,10 +6,11 @@ function Contact() {
   return (
     <section id="contact" className="contact">
       <div data-aos="fade-right" className="contact__body">
-        <h2 className="contact__heading">Contact Me</h2>
+        <h2 className="contact__heading">Let’s work together</h2>
+        <p className="contact__p">If you’re building something ambitious and need someone who can connect technical work with organized execution, I’d be glad to hear from you.</p>
         <div className="contact__option">
           <FaMailBulk className="contact__logo" size={45} />
-          <a href="mailto: dallascgiles@gmail.com">
+          <a href="mailto:dallascgiles@gmail.com">
             <span className="contact__text">dallascgiles@gmail.com</span>
           </a>
         </div>

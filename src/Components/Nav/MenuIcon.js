@@ -3,13 +3,13 @@ import "./MenuIcon.css";
 
 function MenuIcon({ clicked, setClicked }) {
   return (
-    <div className="menuIcon" onClick={() => setClicked(!clicked)}>
+    <button className="menuIcon" type="button" aria-label={clicked ? "Close navigation" : "Open navigation"} aria-expanded={clicked} onClick={() => setClicked(!clicked)}>
       {clicked ? (
         <FaTimes className="menuIcon__icon" size={45} />
       ) : (
         <FaBars className="menuIcon__icon" size={45} />
       )}
-    </div>
+    </button>
   );
 }
 

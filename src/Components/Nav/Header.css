@@ -1,31 +1,4 @@
-.header {
-    font-family: "Fira Code", monospace;
-    height: 12.5%;
-    background: linear-gradient(
-      90deg,
-      rgba(18, 19, 20, 1) 0%,
-      rgba(34, 38, 43, 1) 59%,
-      rgba(49, 54, 59, 1) 100%
-    );
-    color: #fff;
-    display: grid;
-    grid-template-areas: "logo nav";
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    z-index: 10;
-    border-bottom: 1px solid #b8c6db;
-    align-content: center;
-  }
-  
-  .header__logo {
-    padding-left: 15px;
-    padding-top: 10px;
-  }
-  
-  .header__menuIcon {
-    position: absolute;
-    right: 5%;
-    top: 50%;
-    transform: translate(-5%, -50%);
-  }
+.header { align-items:center; backdrop-filter:blur(18px); background:rgba(11,14,20,.82); border-bottom:1px solid var(--border); display:grid; font-family:"Fira Code",monospace; grid-template-areas:"logo nav"; grid-template-columns:1fr auto; height:88px; padding:0 5vw; position:fixed; top:0; width:100%; z-index:10; }
+.header__logo img { height:52px; width:52px; }
+.header__menuIcon { display:none; }
+@media (max-width:768px) { .header { height:76px; padding:0 22px; } .header__menuIcon { display:block; grid-area:nav; justify-self:end; } }

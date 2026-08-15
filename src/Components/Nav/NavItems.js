@@ -4,7 +4,7 @@ export const navItems = [
       link: "#about",
     },
     {
-      name: "Projects",
+      name: "Impact",
       link: "#project",
     },
     {

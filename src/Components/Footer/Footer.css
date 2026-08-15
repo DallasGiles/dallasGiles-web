@@ -1,14 +1,3 @@
-.footer {
-    height: 27.5vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow-x: hidden;
-    font-family: "Roboto", sans-serif;
-    background-color: #f5f7f9;
-    background-image: linear-gradient(315deg, #dee3ee 0%, #f5f7fa 74%);
-  }
-  
-  .footer__copyright {
-    font-size: 12px;
-  }
+.footer { align-items:center; background:#090b10; border-top:1px solid var(--border); display:flex; flex-direction:column; font-family:"Roboto",sans-serif; gap:8px; min-height:230px; padding:38px 20px; }
+.footer .header__logo img { height:48px; width:48px; }
+.footer__copyright { color:var(--muted); font-size:.8rem; }
