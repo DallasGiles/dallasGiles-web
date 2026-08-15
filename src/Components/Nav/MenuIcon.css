@@ -1,2 +1,2 @@
-.menuIcon { background:transparent; border:0; color:var(--ink); cursor:pointer; display:grid; padding:8px; place-items:center; }
+.menuIcon { background:transparent; border:0; color:var(--ink); cursor:pointer; display:grid; height:44px; padding:8px; place-items:center; width:44px; }
 .menuIcon__icon { display:block; height:28px; width:28px; }
