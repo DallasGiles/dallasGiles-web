@@ -27,7 +27,7 @@ function About() {
       </div>
       <img
         className="about__headshot"
-        src="/images/headshot.jpeg"
+        src="/images/headshot-professional.jpg"
         alt="Portrait of Dallas Giles"
         width="268"
         height="400"
