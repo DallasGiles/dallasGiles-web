@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./Components/Nav/Header";
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Landing from "./Components/Landing/Landing";
 import Projects from "./Components/Projects/Projects";
@@ -10,6 +10,18 @@ import Footer from "./Components/Footer/Footer";
 //import ReactGA from "react-ga";
 
 function App() {
+  useLayoutEffect(() => {
+    if ("scrollRestoration" in window.history) {
+      window.history.scrollRestoration = "manual";
+    }
+
+    const resetScroll = () => window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    resetScroll();
+    const frame = window.requestAnimationFrame(resetScroll);
+
+    return () => window.cancelAnimationFrame(frame);
+  }, []);
+
   // useEffect(() => {
   //   ReactGA.initialize("UA-204992447-1");
   // }, []);
